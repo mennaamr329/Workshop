@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin-top: 0;
+     font-family: "Alegreya Sans", sans-serif;
+}
+.d-fw{
+    display: flex;
+    flex-wrap: wrap;
+}
+.m-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.container2{
+    width: 100%;
+   
+    background-color: #F9F9F9;
+}
+.d-b{
+    display: block;
+}
+
+/* nav */
+
+ nav{
+    /* background-color: black; */
+    padding: 20px;
+     position: fixed; 
+     left: 0;
+     right: 0;
+     top:0;
+    z-index: 999; 
+    margin-bottom: 50px;
+ }
+ nav .container{
+   justify-content: space-between;
+    align-items: center;
+ }
+ nav img{
+    width: 10%;
+ }
+ nav ul{
+    list-style: none;
+    margin: 0;
+    justify-content: space-between;
+    gap: 10px;
+   
+    
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: white;
+     margin-right: 16px;
+     font-size: 19px;
+     line-height: 23px;
+     
+ }
+
+ /* header */
+ header{
+    background-image: url(images/hero-section/imgi_24_drew-coffman-1872.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+    
+ }
+ header span , p{
+    font-size: 25px;
+    line-height: 30px;
+ }
+ header h1{
+    font-size: 80px;
+    line-height: 92px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-block: 10px;
+ }
+ header .btns button{
+    
+    border-radius: 10px;
+    margin-inline-end: 20px;
+    color: white;
+ }
+ button.btn1{
+    background-color: #907754;
+    border: none;
+    padding: 16px 32px;
+ }
+ button.btn1:hover{
+    background-color: transparent;
+    border: 3px solid white;
+ }
+ button.btn2{
+    background-color: transparent;
+    border: 3px solid white;
+     padding: 12px 32px;
+ }
+ button.btn2:hover{
+   background-color: #907754;
+    border: none;
+ }
+ .shape{
+    width: 25px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 16px;
+    margin: 40px auto;
+ }
+ .shape .circle{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    margin:5px auto;
+    background-color: white;
+    border-radius: 50%;
+    
+ }
+ 
+ /* who */
+ .who{
+    margin-left: 30px;
+    justify-content: space-between;
+    margin-bottom: 40px;
+ }
+ .img-who{
+    width: 40%;
+    border-radius: 16px;
+ }
+ .img-who img{
+    width: 100%;
+    border-radius: 16px;
+ }
+ .who-content{
+    width: 60%;
+     padding-left: 30px;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+.who-content h2{
+    font-size: 38px;
+    margin-block: 8px;
+}
+.who-content p{
+    font-size: 18px;
+    line-height: 31px;
+}
+ .who-content .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #8E7754;
+ }
+ .who-content .circle img{
+    width: 100%;
+ }
+ .who-content .p-content p{
+    vertical-align: middle;
+   justify-content: flex-start;
+   margin: 10px 30px;
+ }
+
+ /* location */
+ .location{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    
+ }
+ .img-loc{
+    width: 40%;
+    border-radius: 16px;
+    margin-top: 20px;
+    
+ }
+ .img-loc img{
+    width: 100%;
+    border-radius: 16px;
+ }
+ .loc-content{
+    width: 58%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 30px;
+ }
+ .loc-content h2{
+    font-size: 38px;
+    margin-block: 8px;
+}
+.loc-content p{
+    font-size: 18px;
+    line-height: 31px;
+}
