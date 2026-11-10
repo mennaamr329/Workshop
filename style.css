@@ -25,6 +25,9 @@ body{
 .d-b{
     display: block;
 }
+section{
+    padding-block: 50px ;
+}
 
 /* nav */
 
@@ -134,6 +137,7 @@ body{
     margin-left: 30px;
     justify-content: space-between;
     margin-bottom: 40px;
+    /* padding-block: 50px ; */
  }
  .img-who{
     width: 40%;
@@ -178,6 +182,7 @@ body{
     margin: auto;
     justify-content: space-between;
     
+    
  }
  .img-loc{
     width: 40%;
@@ -190,16 +195,38 @@ body{
     border-radius: 16px;
  }
  .loc-content{
-    width: 58%;
+    width: 40%;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     margin-top: 30px;
  }
  .loc-content h2{
     font-size: 38px;
+    line-height: 46px;
     margin-block: 8px;
 }
 .loc-content p{
     font-size: 18px;
     line-height: 31px;
+}
+
+/* baking */
+.Baking{
+   /* margin: auto; */
+   text-align: center;
+
+}
+.Baking p{
+   margin-bottom: 50px;
+}
+.baking{
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+.baking img{
+   width: 100%;
+}
+.bake1{
+   width: 30%;
 }
