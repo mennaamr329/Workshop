@@ -216,8 +216,15 @@ section{
    text-align: center;
 
 }
+.Baking h2{
+  font-size: 37px;
+  line-height: 44px;
+}
 .Baking p{
    margin-bottom: 50px;
+   font-size: 18px;
+  line-height: 22px;
+  color: #686868;
 }
 .baking{
     width: 80%;
@@ -226,7 +233,44 @@ section{
 }
 .baking img{
    width: 100%;
+   border-radius: 16px;
 }
 .bake1{
-   width: 30%;
+   width: 33.33%;
+}
+.inner{
+   padding-left:30px ;
+}
+
+/* contact-section */
+.contact{
+   gap: 20px;
+}
+.left-contact{
+   width: 45%;
+   flex-direction: column;
+}
+ .d-content .circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #8E7754;
+    margin-inline-end: 30px;
+ }
+ .d-content .circle img{
+    width: 100%;
+    color: white;
+ }
+ .left-content .d-content p{
+    vertical-align: middle;
+   margin: 0 20px;
+  justify-content: center;  
+ }
+.right-contact{
+   width: 50%;
+   margin-top: 40px;
+}
+.right-contact img{
+   width: 100%;
+   background-color: beige;
 }
