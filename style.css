@@ -274,3 +274,79 @@ section{
    width: 100%;
    background-color: beige;
 }
+
+footer{
+   background-color: #413D38;
+   margin: auto;
+   
+   
+  
+}
+footer h2{
+   color: white;
+}
+footer p{
+   color: #6B6762;
+}
+
+.Contact .con-img{
+   width: 20%;
+
+}
+.Contact .con-img img{
+   width: 100%;
+   color:gray;
+}
+.Contact p{
+   width: 80%;
+   vertical-align: middle;
+   align-self: center;
+}
+
+
+/* media */
+@media (max-width:576px){
+   .right-nav{
+      display: none;
+   }
+     .sm-100{
+      width: 100%;
+   }
+  
+  .left-contact{
+   width: 100%;
+  }
+}
+@media (min-width:577px) and (max-width:768px){
+   
+   .right-nav{
+      display: none;
+   }
+   .sm-100{
+      width: 100%;
+   }
+  
+  .left-contact{
+   width: 100%;
+  }
+
+}
+@media (min-width:769px) and (max-width:992px) {
+   
+   nav{
+      display: block;
+   }
+   .img-loc{
+      align-self: center;
+     
+   }
+   .bake1{
+      width: 40%;
+   }
+}
+@media (max-width:1400px){
+   
+   nav{
+      display: block;
+   }
+}
